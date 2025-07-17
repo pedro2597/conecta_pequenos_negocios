@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: blue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.cabeca{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+}
+
+.buscar{
+    display: flex;
+    padding-left: 30px;
+    gap: 20px;
+}
+
+.buscar input{
+    background-color: slateblue;
+    padding: 12px;
+    border-radius: 24px;
+    font-size: 25px;
+    color: white;
+}
+
+.titulo h1{
+    text-align: center;
+    font-size: 80px;
+    padding-left: 40px;
+}
+
+.ascinar{
+    display: flex;
+    padding-right: 40px;
+    gap: 20px;
+}
+
+.login, .cadastro{
+    background-color: slateblue;
+    font-size: 25px;
+    border-radius: 24px;
+    padding: 12px;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.05);
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+.secao{
+    background-color: aqua;
+    padding: 65px;
+}
+
+.window{
+    background-color: grey;
+    color: white;
+    padding: 24px;
+    border-radius: 24px;
+}
+
+.proposta, .servicos, .publico, .diretoria, .equipe, .localizacao, .contato{
+    font-size: 30px;
+    margin: 80px;
+}
+
+.fundo{
+    background-color: blue;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+}

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: blue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.cabeca{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+}
+
+.buscar{
+    display: flex;
+    padding-left: 30px;
+    gap: 20px;
+}
+
+.buscar input{
+    background-color: slateblue;
+    padding: 12px;
+    border-radius: 24px;
+    font-size: 25px;
+    color: white;
+}
+
+.titulo h1{
+    text-align: center;
+    font-size: 80px;
+    padding-left: 40px;
+}
+
+.ascinar{
+    display: flex;
+    padding-right: 40px;
+    gap: 20px;
+}
+
+.login, .cadastro{
+    background-color: slateblue;
+    font-size: 25px;
+    border-radius: 24px;
+    padding: 12px;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.05);
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,16 @@
+.section{
+    background-color: aqua;
+    padding: 82px;
+}
+
+.conteudo{
+    display: flex;
+    gap: 50px;
+}
+
+.texto{
+    text-align: center;
+    font-size: 40px;
+    padding: 82px;
+    border: 1px solid black;
+}

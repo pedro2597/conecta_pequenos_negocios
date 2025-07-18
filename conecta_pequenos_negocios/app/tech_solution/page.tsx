@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Lupa from "../ferramentas/6789.webp"
+import Tech from "../ferramentas/tech_solution.png";
 import "./page.css";
 
 export default function Informacao(){
@@ -23,6 +24,9 @@ export default function Informacao(){
             </div>
             <div className="secao">
                 <div className="window">
+                    <div className="imagem">
+                        <Image src={Tech} alt="Tech Solution" height={600}/>
+                    </div>
                     <div className="proposta">
                         <h1>Missão e Proposta da Empresa</h1>
                         <p>A <strong>Tech Solution</strong> é uma empresa especializada em soluções 

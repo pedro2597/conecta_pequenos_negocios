@@ -15,8 +15,8 @@ export default function Header(){
                     <h1>Conecta Pequenos Negocios</h1>
                </div>
                 <div className="ascinar">
-                    <Link href="/hello" className="login">Log in</Link>
-                    <Link href="/hello" className="cadastro">Cadastre-se</Link>
+                    <Link href="#" className="login">Log in</Link>
+                    <Link href="#" className="cadastro">Cadastre-se</Link>
                 </div> 
             </div>
         </div>

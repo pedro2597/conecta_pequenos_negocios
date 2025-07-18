@@ -44,7 +44,7 @@ export default function Display(){
                         <br></br>
                     </div>
                     <div className="saberMais">
-                        <a href="#" className="saberGreen">Saber Mais</a>
+                        <Link href="/green_energy" className="saberGreen">Saber Mais</Link>
                     </div>
                 </div>
                 <div className="empresa3">
@@ -61,7 +61,7 @@ export default function Display(){
                         <br></br>
                     </div>
                     <div className="saberMais">
-                        <a href="#" className="saberHealth">Saber Mais</a>
+                        <Link href="/health_care_plus" className="saberHealth">Saber Mais</Link>
                     </div>
                 </div>
                 <div className="empresa4">
@@ -78,7 +78,7 @@ export default function Display(){
                         <br></br>
                     </div>
                     <div className="saberMais">
-                        <a href="#" className="saberEdu">Saber Mais</a>
+                        <Link href="/edutech_academy" className="saberEdu">Saber Mais</Link>
                     </div>
                 </div>
             </div>

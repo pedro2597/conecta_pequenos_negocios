@@ -65,10 +65,24 @@ ul {
 }
 
 .window{
+    display: flex;
     background-color: grey;
+    gap: 20px;
     color: white;
     padding: 24px;
     border-radius: 24px;
+    border: 5px solid black;
+}
+
+.content{
+    display: flex;
+    transition: transform 0.4s ease;
+    scroll-behavior: smooth;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    width: 1200px;
+    height: 600px;
+    gap: 24px;
 }
 
 .imagem{
@@ -77,9 +91,20 @@ ul {
 }
 
 .proposta, .servicos, .publico, .diretoria, .equipe, .localizacao, .contato{
+    background-color: cornflowerblue;
+    min-width: 1000px;
+    min-height: 900px;
+    padding: 12px;
     font-size: 30px;
-    margin: 80px;
     line-height: 1.5;
+}
+
+.proposta h1, .servicos h1, .publico h1, .diretoria h1, .equipe h1, .localizacao h1, .contato h1{
+    color: brown;
+}
+
+.diretoria h3, .equipe h3{
+    color: darkblue;
 }
 
 .fundo{

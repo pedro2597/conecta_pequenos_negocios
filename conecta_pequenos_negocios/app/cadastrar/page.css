@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: blue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.cabeca{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+}
+
+.buscar{
+    display: flex;
+    padding-left: 30px;
+    gap: 20px;
+}
+
+.buscar input{
+    background-color: slateblue;
+    padding: 12px;
+    border-radius: 24px;
+    font-size: 25px;
+    color: white;
+}
+
+.titulo h1{
+    text-align: center;
+    font-size: 80px;
+    padding-left: 40px;
+}
+
+.ascinar{
+    display: flex;
+    padding-right: 40px;
+    gap: 20px;
+}
+
+.login, .cadastro{
+    background-color: slateblue;
+    font-size: 25px;
+    border-radius: 24px;
+    padding: 12px;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.05);
+    color: white;
+    text-decoration: none;
+}
+
+
+.secao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    padding: 65px;
+}
+
+.marcar{
+    background-color: grey;
+    color: black;
+    gap: 20px;
+    padding: 24px;
+    border-radius: 24px;
+    border: 5px solid black;
+    height: 700px;
+    width: 800px;
+}
+
+.cadastrando{
+    text-align: center;
+    font-size: 25px;
+}
+
+.entrada{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.entrada p{
+    font-size: 25px;
+    padding-top: 12px;
+}
+
+.entrada input{
+    padding: 12px;
+    border-radius: 24px;
+    font-size: 25px;
+}
+
+.botao{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.botao1{
+    padding: 12px;
+    border-radius: 24px;
+    font-size: 25px;
+}
+
+
+.fundo{
+    background-color: blue;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+}

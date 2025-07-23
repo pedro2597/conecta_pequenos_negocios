@@ -16,7 +16,7 @@ export default function Header(){
                </div>
                 <div className="ascinar">
                     <Link href="#" className="login">Log in</Link>
-                    <Link href="#" className="cadastro">Cadastre-se</Link>
+                    <Link href="/cadastrar" className="cadastro">Cadastre-se</Link>
                 </div> 
             </div>
         </div>

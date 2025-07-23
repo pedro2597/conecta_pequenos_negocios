@@ -18,7 +18,7 @@ export default function Informacao(){
                 </div>
                     <div className="ascinar">
                         <Link href="/hello" className="login">Log in</Link>
-                        <Link href="/hello" className="cadastro">Cadastre-se</Link>
+                        <Link href="/cadastrar" className="cadastro">Cadastre-se</Link>
                     </div> 
                 </div>
             </div>

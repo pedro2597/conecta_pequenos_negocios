@@ -1,6 +1,6 @@
 {
   "name": "conecta_pequenos_negocios",
-  "version": "0.1.0",
+  
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
@@ -21,10 +21,11 @@
     "@tailwindcss/postcss": "^4",
     "tailwindcss": "^4"
   },
-  "builds": [{ "src": "package.json", "use": "@vercel/static-build" }],
-  "routes": [
-    { "src": "/.*", "dest": "index.html" }
-  ]
+  
+  "version": 2,
+  "builds": [{ "src": "api/*.js", "use": "@vercel/node" }],
+  "routes": [{ "src": "/api/(.*)", "dest": "api/$1" }]
+
 
   
 }

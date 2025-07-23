@@ -1,6 +1,6 @@
 {
   "name": "conecta_pequenos_negocios",
-  
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
@@ -20,11 +20,9 @@
     "@types/react-dom": "^19",
     "@tailwindcss/postcss": "^4",
     "tailwindcss": "^4"
-  },
+  }
   
-  "version": 2,
-  "builds": [{ "src": "api/*.js", "use": "@vercel/node" }],
-  "routes": [{ "src": "/api/(.*)", "dest": "api/$1" }]
+
 
 
   
